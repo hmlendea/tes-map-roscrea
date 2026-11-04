@@ -54,12 +54,15 @@ map asset as a reference in related Elder Scrolls modding projects.
 
 ## 🤝 Contributing
 
-You are welcome to bring suggestions, feedback, or modifications to this project.
+You are welcome to submit any suggestion, feedback, or modification to this project.
 
-When contributing, please:
-- Keep pull requests focused and consistent with the existing style.
-- Revise project documentation when project behaviour changes.
-- Verify that exported assets are valid and packaged correctly.
+When doing so, please:
+- Submit focused pull requests that conform to the existing code style
+- Maintain your branch synchronised with `master`
+- Revise the documentation when functionality changes
+- Raise a new [issue](https://github.com/hmlendea/tes-map-roscrea/issues) for problems or suggestions
+
+See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
 
 ## 💝 Support
 
