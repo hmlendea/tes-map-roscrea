@@ -64,6 +64,12 @@ When doing so, please:
 
 See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
 
+## 🛡️ Privacy and Data
+
+For the detailed description of how the application handles privacy and personal data, see the [Privacy Statement](./PRIVACY.md).
+
+This project is a static map artwork asset with no runtime component. No personal data is collected, processed, stored, or transmitted by the project itself. Distribution occurs through Nexus Mods, which operates under its own privacy policy.
+
 ## 📜 Code of Conduct
 
 This project follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
