@@ -88,7 +88,7 @@ No automated tests exist for this project. Verify exported assets manually.
 
 ## 📋 Code of Conduct
 
-This project does not have a formal Code of Conduct. Contributors are expected to interact respectfully and constructively.
+This project follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## 🔒 Security
 

@@ -64,6 +64,10 @@ When doing so, please:
 
 See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
 
+## 📜 Code of Conduct
+
+This project follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
+
 ## 💝 Support
 
 Discovered a problem or have a suggestion? [Open an issue](https://github.com/hmlendea/tes-map-roscrea/issues)!
