@@ -16,6 +16,7 @@ Oblivion's in-game map.
   - [Requirements](#requirements)
   - [Setup](#setup)
 - [Contributing](#-contributing)
+- [Security](#-security)
 - [Support](#-support)
 - [License](#-license)
 
@@ -63,6 +64,12 @@ When doing so, please:
 - Raise a new [issue](https://github.com/hmlendea/tes-map-roscrea/issues) for problems or suggestions
 
 See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
+
+## 🔒 Security
+
+For the security policy, supported versions, vulnerability reporting, and disclosure process, see [SECURITY.md](./SECURITY.md).
+
+This project is a static map artwork asset with no runtime component, executable code, or network services. The security policy addresses supply-chain integrity of the distributed asset and responsible disclosure.
 
 ## 🛡️ Privacy and Data
 
