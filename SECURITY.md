@@ -10,6 +10,7 @@ This project is a static map artwork asset for The Elder Scrolls IV: Oblivion mo
 - [Disclosure Policy](#-disclosure-policy)
 - [Safe Harbour](#-safe-harbour)
 - [Recognition](#-recognition)
+- [Related Documentation](#-related-documentation)
 
 ## 🛡️ Supported Versions
 
@@ -60,3 +61,11 @@ If your investigation is conducted in good faith, confined to authorised scope, 
 ## 🙏 Recognition
 
 We appreciate responsible disclosure. Reporters who desire public attribution may be acknowledged in release notes, advisories, or a dedicated acknowledgements section.
+
+## 🔗 Related Documentation
+
+| Document | Scope |
+|----------|-------|
+| `docs/security.md` | Complementary security notes (supply-chain, asset integrity, tamper detection) |
+| `docs/build-and-deployment.md` | Release process including verification steps |
+| `docs/testing.md` | Verification checklist for exports and packages |
