@@ -17,6 +17,7 @@ Oblivion's in-game map.
   - [Setup](#setup)
 - [Contributing](#-contributing)
 - [Security](#-security)
+- [Architecture](#-architecture)
 - [Support](#-support)
 - [License](#-license)
 
@@ -88,6 +89,28 @@ Discovered a problem or have a suggestion? [Open an issue](https://github.com/hm
 If you find this project useful, consider [funding it](https://hmlendea.go.ro/funding) or starring ⭐️ it on GitHub!
 
 [![Donate](https://raw.githubusercontent.com/hmlendea/readme-assets/master/donate_generic.png)](https://hmlendea.go.ro/funding)
+
+## 🏗️ Architecture
+
+This project follows a **single-source asset pipeline** architecture. The authoritative source is `Roscrea.xcf` (GIMP native format), which preserves layers, masks, and non-destructive edits. All downstream artefacts — exported textures (DDS for Oblivion, PNG for reference) and distribution packages — are derived manually from this source.
+
+```mermaid
+flowchart TD
+    Source[Roscrea.xcf\n(Authoritative Source)] --> Export[Manual Export\n(GIMP)]
+    Export --> Texture[Exported Texture\n(DDS/PNG)]
+    Texture --> Package[Mod Package\n(Archive + Metadata)]
+    Package --> Nexus[Nexus Mods]
+    Package --> GitHub[GitHub Releases]
+```
+
+Key architectural boundaries:
+- **Source Layer:** `Roscrea.xcf` — sole authoritative representation; all edits occur here
+- **Export Boundary:** Manual, maintainer-driven; no automated build pipeline
+- **Distribution Layer:** Packaged archives on Nexus Mods and GitHub Releases; immutable once published
+
+The project has no runtime component, executable code, or network services. It is a static artwork asset consumed by The Elder Scrolls IV: Oblivion via mod managers.
+
+See [ARCHITECTURE.md](./ARCHITECTURE.md) for the complete architecture documentation including system context, data architecture, interfaces, deployment, compatibility contracts, and design constraints.
 
 ## 📜 License
 
