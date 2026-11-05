@@ -92,7 +92,9 @@ This project follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## 🔒 Security
 
-This project does not have a formal Security Policy. Report security concerns by opening an issue.
+For the security policy, supported versions, vulnerability reporting, and disclosure process, see [SECURITY.md](./SECURITY.md).
+
+This project is a static map artwork asset with no runtime component, executable code, or network services. The security policy addresses supply-chain integrity of the distributed asset and responsible disclosure.
 
 ## 📄 License
 
