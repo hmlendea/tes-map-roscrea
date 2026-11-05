@@ -85,6 +85,7 @@ No automated tests exist for this project. Verify exported assets manually.
 - Revise relevant docs for changes.
 - Follow the documentation style guide.
 - Preview changes locally if possible.
+- Detailed documentation lives in [`docs/`](./docs/); see [`docs/INDEX.md`](./docs/INDEX.md) for navigation.
 
 ## 📋 Code of Conduct
 

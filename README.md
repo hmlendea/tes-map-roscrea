@@ -18,6 +18,7 @@ Oblivion's in-game map.
 - [Contributing](#-contributing)
 - [Security](#-security)
 - [Architecture](#-architecture)
+- [Documentation](#-documentation)
 - [Support](#-support)
 - [License](#-license)
 
@@ -112,7 +113,25 @@ The project has no runtime component, executable code, or network services. It i
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for the complete architecture documentation including system context, data architecture, interfaces, deployment, compatibility contracts, and design constraints.
 
-## 📜 License
+## � Documentation
+
+Detailed documentation is available in the [`docs/`](./docs/) directory:
+
+| Document | Description |
+|----------|-------------|
+| [INDEX.md](./docs/INDEX.md) | Master navigation for all documentation |
+| [repository-overview.md](./docs/repository-overview.md) | High-level project summary, purpose, and scope |
+| [repository-structure.md](./docs/repository-structure.md) | File and directory layout with descriptions |
+| [architecture.md](./docs/architecture.md) | Complementary architecture notes (asset pipeline, export process, distribution) |
+| [data-model.md](./docs/data-model.md) | Asset representations: XCF source, DDS/PNG exports, mod archive structure |
+| [build-and-deployment.md](./docs/build-and-deployment.md) | Manual export, packaging, and release process |
+| [configuration.md](./docs/configuration.md) | Export settings, GIMP version, compression parameters |
+| [dependencies.md](./docs/dependencies.md) | External dependencies: GIMP, Oblivion, Nexus Mods, GitHub |
+| [testing.md](./docs/testing.md) | Manual verification steps for exports and packages |
+| [security.md](./docs/security.md) | Complementary security notes (supply-chain, asset integrity) |
+| [change-guide.md](./docs/change-guide.md) | How to modify the asset safely and create releases |
+
+## �📜 License
 
 This project is licensed under the GNU General Public License v3.0 or later.
 See [LICENSE](./LICENSE) for full details.

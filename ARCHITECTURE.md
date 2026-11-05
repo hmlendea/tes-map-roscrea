@@ -301,3 +301,12 @@ No stable interfaces, hooks, or composition boundaries exist for third-party ext
 | `PRIVACY.md` | Privacy statement (static asset, no data collection) |
 | `CODE_OF_CONDUCT.md` | Community conduct standards |
 | `LICENSE` | GNU General Public License v3.0 full text |
+| `docs/INDEX.md` | Master navigation for detailed documentation |
+| `docs/architecture.md` | Complementary architecture notes (asset pipeline, export process, distribution) |
+| `docs/data-model.md` | Asset representations: XCF source, DDS/PNG exports, mod archive structure |
+| `docs/build-and-deployment.md` | Manual export, packaging, and release process |
+| `docs/configuration.md` | Export settings, GIMP version, compression parameters |
+| `docs/dependencies.md` | External dependencies: GIMP, Oblivion, Nexus Mods, GitHub |
+| `docs/testing.md` | Manual verification steps for exports and packages |
+| `docs/security.md` | Complementary security notes (supply-chain, asset integrity) |
+| `docs/change-guide.md` | How to modify the asset safely and create releases |
